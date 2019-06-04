@@ -9,12 +9,51 @@
 </template>
 
 <style lang="scss">
+body {
+    background: url('./assets/avocados.jpg');
+    background-size: contain;
+}
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+    border-style: solid;
+    border-width: 0px;
+    cursor: pointer;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0 0 1.25rem;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    padding-top: .5rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    background-color: #6C8F32;
+    color: #FFFFFF;
+    -webkit-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+    border: 1px solid #356211;
+    border-bottom: 5px solid #356211;
+    margin-top: 25px;
+}
+h1 {
+    color: #efefef;
+}
+label {
+    display: inline-block;
+    margin: 20px 0 10px
+}
+i {
+    margin-right: 4px;
 }
 #nav {
   padding: 30px;
